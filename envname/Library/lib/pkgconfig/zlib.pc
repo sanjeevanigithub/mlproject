@@ -1,0 +1,13 @@
+prefix=D:/Sanjeevani/DATA SCIENCE/DS Projects/ML Projects/envname/Library
+exec_prefix=D:/Sanjeevani/DATA SCIENCE/DS Projects/ML Projects/envname/Library
+libdir=D:/Sanjeevani/DATA SCIENCE/DS Projects/ML Projects/envname/Library/lib
+sharedlibdir=D:/Sanjeevani/DATA SCIENCE/DS Projects/ML Projects/envname/Library/lib
+includedir=D:/Sanjeevani/DATA SCIENCE/DS Projects/ML Projects/envname/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
